@@ -78,7 +78,7 @@ provided by two sets of timers (timing only the kernel execution vs. timing the 
 
 __Answer 2.__
 
-First, we get the nvidia GPU pcie bankwidth:
+First, we get the nvidia GPU pcie bandwidth:
 
 ```bash
 $ lspci | grep -i nvidia
