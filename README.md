@@ -203,6 +203,38 @@ You can also use the `-n <size>` option to change the length of the input array.
 
 The argument `--thrust` will use the [Thrust Library's](http://thrust.github.io/) implementation of [exclusive scan](http://thrust.github.io/doc/group__prefixsums.html).  __Up to two points of extra credit for anyone that can create an implementation is competitive with Thrust.__
 
+### Answer
+
+~~~~
+-------------------------
+Scan Score Table:
+-------------------------
+-------------------------------------------------------------------------
+| Element Count   | Ref Time        | Student Time    | Score           |
+-------------------------------------------------------------------------
+| 1000000         |                 | 1.158           | 0               |
+| 10000000        |                 | 35.172          | 0               |
+| 20000000        |                 | 29.459          | 0               |
+| 40000000        |                 | 62.088          | 0               |
+-------------------------------------------------------------------------
+|                                   | Total score:    | 0/5             |
+-------------------------------------------------------------------------
+
+-------------------------
+Find_repeats Score Table:
+-------------------------
+-------------------------------------------------------------------------
+| Element Count   | Ref Time        | Student Time    | Score           |
+-------------------------------------------------------------------------
+| 1000000         |                 | 1.321           | 0               |
+| 10000000        |                 | 16.472          | 0               |
+| 20000000        |                 | 33.568          | 0               |
+| 40000000        |                 | 68.843          | 0               |
+-------------------------------------------------------------------------
+|                                   | Total score:    | 0/5             |
+-------------------------------------------------------------------------
+~~~~
+
 ## Part 3: A Simple Circle Renderer (85 pts) ##
 
 Now for the real show!
